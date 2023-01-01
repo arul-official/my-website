@@ -1,0 +1,82 @@
+{
+  "shortcuts": [
+    {
+      "name": "Launch Arul MV",
+      "short_name": "Arul MV",
+      "description": "Redirect to the Arul MV App",
+      "url": "/?arulmv",
+      "icons": [
+        {
+          "src": "assets/img/icons/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "background_color": "#ffffff",
+  "description": "Personal website of Arulmozhivaradan J.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Arul MV",
+  "orientation": "portrait",
+  "scope": "/",
+  "short_name": "Arul MV",
+  "start_url": "/",
+  "theme_color": "#0563bb",
+  "categories": [],
+  "screenshots": [
+    {
+      "src": "assets/img/screenshot/screenshot1.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpg",
+      "platform": "wide"
+    }
+  ],
+  "icons": [
+    {
+      "src": "assets/img/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/img/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/img/icons/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/img/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "any"
+    }
+  ],
+  "lang": "en",
+  "display_override": [
+    "standalone"
+  ]
+}

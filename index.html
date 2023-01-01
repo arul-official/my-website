@@ -5,13 +5,16 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
+
   <title>Arul MV</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta content="This is Personal website for the full stack developer Arul MV" name="description">
+  <meta content="arulmv, developer, software architect, full stack" name="keywords">
+  <meta name="theme-color" content="#0563bb" />
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+  <link rel="manifest" href="manifest.json" />
 
   <!-- Google Fonts -->
   <link
@@ -63,7 +66,8 @@
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>ArulMozhiVaradan J</h1>
-      <p>I'm <span class="typed" data-typed-items="Developer, Designer, Software Architect, Freelancer"></span></p>
+      <p>I'm <span class="typed"
+          data-typed-items="Full Stack Developer, Designer, Software Architect, Freelancer"></span></p>
       <div class="social-links">
         <a href="https://twitter.com/ArulMV" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="https://www.facebook.com/arul.mv" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -845,6 +849,12 @@
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
+
+  <script>
+    if (typeof navigator.serviceWorker !== 'undefined') {
+      navigator.serviceWorker.register('sw.js')
+    }
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
