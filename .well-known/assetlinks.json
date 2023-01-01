@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.appmaker.weqpmu",
+      "sha256_cert_fingerprints": ["DB:B2:CE:12:3D:08:33:D5:1F:4B:87:84:A1:54:31:6A:A4:C6:7F:23:E9:3D:88:04:D7:AB:5F:02:57:AB:BC:FD"]
+    }
+  }
+]
